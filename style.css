@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #121212; /* ダーク背景 */
+    color: #e0e0e0; /* 明るいテキストカラー */
+}
+
+#app {
+    margin-top: 50px;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    border: 1px solid #444; /* 薄いボーダー */
+    border-radius: 5px; /* 角を丸く */
+    background-color: #1e1e1e; /* ダークな入力フィールド */
+    color: #e0e0e0; /* 明るいテキストカラー */
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none; /* ボーダーなし */
+    border-radius: 5px; /* 角を丸く */
+    background-color: #3a3a3a; /* ダークボタン */
+    color: #e0e0e0; /* 明るいテキストカラー */
+    cursor: pointer; /* カーソルをポインターに */
+    transition: background-color 0.3s; /* ホバー時の遷移 */
+}
+
+button:hover {
+    background-color: #5a5a5a; /* ホバー時の色 */
+}
+
+#scoreboard {
+    margin-top: 20px;
+    background: #1e1e1e; /* ダークな得点ボード */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* 明るい影 */
+}
